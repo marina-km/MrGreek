@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'PFDinTextCompPro-Regular';
+    src: url("../fonts/PFDinTextCompPro-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'PFDinTextCompPro-Bold';
+    src: url("../fonts/PFDinTextCompPro-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'BebasNeueRegular.otf';
+    src: url("../fonts/BebasNeueRegular.otf");
+}

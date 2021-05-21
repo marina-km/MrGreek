@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+}
+
+.main-section {
+    background-image: url("../img/main-bg.png");
+    /*width: 100vw;*/
+    height: 100vh;
+}
+
+.darkness {
+    height: 100%;
+    /*width: 100%;*/
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.left-part {
+    /*width: 500px;*/
+    height: 100%;
+    width: 30%;
+    min-width: 500px;
+    display: inline-block;
+    background-color: white;
+    text-align: center;
+
+}
+
+.right-part {
+    display: inline-block;
+    vertical-align: top;
+    /*position: relative;*/
+}
+
+.right-part-content {
+    /*position: absolute;*/
+    /*bottom: 1px;*/
+    /*left: 1px;*/
+}
+
+.logo {
+    margin: 90px 0;
+}
+
+.call-form {
+    /*margin-left: 100px;*/
+    /*margin-top: 89px;*/
+    /*margin-bottom: 61px;*/
+    /*width: 300px;*/
+}
+
+.call-form-header {
+    width: 300px;
+    margin: 10px auto;
+}
+
+.form {
+    width: 300px;
+    margin: 0 auto;
+    /*display: block;*/
+    /*padding: 15px 30px 5px 30px;*/
+    /*margin-left: 40px;*/
+}
+
+.form-input {
+    border: none;
+    border-bottom: 1px solid black;
+    /*border-left: none;*/
+    /*border-right: none;*/
+    /*border-top: none;*/
+    text-align: center;
+    /*vertical-align: text-bottom;*/
+    margin: 10px 0;
+    padding-bottom: 5px;
+}
+
+/*.input-border1 {*/
+    /*margin-top: 40px;*/
+    /*margin-bottom: 10px;*/
+/*}*/
+
+/*.input-border2 {*/
+    /*margin-bottom: 30px;*/
+/*}*/
+
+.call-form-btn {
+    border-color: rgb(156, 34, 48);
+    /*margin-left: 40px;*/
+    /*padding: 10px 80px;*/
+    margin-top: 10px;
+    padding: .5em 4em;
+    background-color: white;
+    color: rgb(156, 34, 48);
+}
+
+.address {
+    /*width: 400px;*/
+    /*text-align: center;*/
+    /*margin-left: 50px;*/
+}
+
+.address-icon {
+    /*position: absolute;*/
+    /*margin-left: 50px;*/
+    /*margin-top: 5px;*/
+    display: inline-block;
+}
+
+.address-name {
+    display: inline-block;
+}
+
+.phone {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.phone a {
+    text-decoration: none;
+}
+
+.mail a {
+    text-decoration: none;
+}
+
+.line {
+    display: inline;
+}
+
+.vk {
+    display: inline-block;
+}
+
+.footer {
+    margin-top: 2rem;
+}
+
+.footer-bound {
+    width: 100%;
+    height: 27px;
+    background-image: url("../img/line.png");
+}
+
+.footer-content {
+}
